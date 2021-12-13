@@ -2,7 +2,6 @@
 
 pragma solidity 0.7.0;
 
-
 // Part: OpenZeppelin/openzeppelin-contracts@3.2.0/EnumerableSet
 
 /**

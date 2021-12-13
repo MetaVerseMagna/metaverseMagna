@@ -2,20 +2,23 @@
 
 pragma solidity 0.7.0;
 
+
 import "../../interfaces/IERC721.sol";
-import "./Context.sol";
-import "./ERC165.sol";
-import "../../interfaces/IERC721.sol";
-import "../../interfaces/IERC721Metadata.sol";
 import "../../interfaces/IERC721Receiver.sol";
+import "../../interfaces/IERC721Metadata.sol";
 import "../../interfaces/IERC721Enumerable.sol";
-import "./SafeMath.sol";
-import "./Address.sol";
 import "./EnumerableSet.sol";
 import "./EnumerableMap.sol";
+import "./Address.sol";
+import "./Context.sol";
 import "./Strings.sol";
+import "./ERC165.sol";
+import "./SafeMath.sol";
 
-
+/**
+ * @title ERC721 Non-Fungible Token Standard basic implementation
+ * @dev see https://eips.ethereum.org/EIPS/eip-721
+ */
 contract ERC721 is
     Context,
     ERC165,

@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"interfaces/IERC165.sol": {
-			"keccak256": "0x94c07f861b235e22c7a757cd1782f3f94aa2970cea16732c9ae742d30bde3c24",
+			"keccak256": "0x0fa83e38796bf4e881dc78351a4a04da8a07dd309efb8c87277ba9e7c102c48b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2be310140d84d036e47874a27bf0538621f3bd1b178dfa47a24ffc582d5aa999",
-				"dweb:/ipfs/QmSh3AnTF4Ncf2TWrjRuodqrF8sLQrgkoa9Px3xerFUBpb"
+				"bzz-raw://5196d46b53e2300a905eb1b38f4dec00135517ff25df80f7f93944eac76d0b75",
+				"dweb:/ipfs/QmWB9cYGRyJPb4FoUete33vzDU6T1VGSFJihiXRTEyeW3S"
 			]
 		}
 	},

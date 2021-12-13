@@ -74,11 +74,11 @@
 	},
 	"sources": {
 		"interfaces/IERC721Receiver.sol": {
-			"keccak256": "0x375747a0c02ad6d8609e0309813f985d2dc1ac3e1109f2a4b4317426abdf1c8b",
+			"keccak256": "0xa8ae9250cc6711d03ec090f6a0a8495f7c778cb13a3124d22ccdd22840576940",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://897575ebd7f1a6ffcc840ed6013df0c0d5a488626e6742953b6ede8f0c3c3edc",
-				"dweb:/ipfs/QmUqugR8UffzAzP2R7YsMoVKfqGHQU7BHzgmgE3E3iMSDC"
+				"bzz-raw://b80417b797bcb3a5cd68101e86b5b33bdbe335407cbdc33c404e772488658177",
+				"dweb:/ipfs/QmdzH8xHUWhUtU47iuLMgMsRBR3vm7diEmFFW2Jh8fzJw2"
 			]
 		}
 	},

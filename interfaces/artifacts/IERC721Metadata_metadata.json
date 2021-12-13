@@ -337,6 +337,7 @@
 			}
 		],
 		"devdoc": {
+			"details": "See https://eips.ethereum.org/EIPS/eip-721",
 			"kind": "dev",
 			"methods": {
 				"approve(address,uint256)": {
@@ -379,6 +380,7 @@
 					"details": "Transfers `tokenId` token from `from` to `to`. WARNING: Usage of this method is discouraged, use {safeTransferFrom} whenever possible. Requirements: - `from` cannot be the zero address. - `to` cannot be the zero address. - `tokenId` token must be owned by `from`. - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}. Emits a {Transfer} event."
 				}
 			},
+			"title": "ERC-721 Non-Fungible Token Standard, optional metadata extension",
 			"version": 1
 		},
 		"userdoc": {
@@ -404,27 +406,27 @@
 	},
 	"sources": {
 		"interfaces/IERC165.sol": {
-			"keccak256": "0xc4f726c53ab9d2e9577cad23bf087ba71f979de214eed29e167795dd9fe274cb",
+			"keccak256": "0x5c8d9dea5fb551ee84551aab0d9d2523385d892b42fd976aa5875058fa18c5b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f637012b25bdb52d246f7cd0188419e34a5b207f5d7d24d264830f5a4b9dbd00",
-				"dweb:/ipfs/QmSEbokghN59hQQ63KDKvxwzKHRMghQzrWC2Nf4TnRXgb2"
+				"bzz-raw://23c335201bf728c2d1a6ff288e3dda034f3a11304636ad6c882c05169dd8abf9",
+				"dweb:/ipfs/QmV7NRBuegidVdnVT9FzBUm7kVKYp9VTt449s299nYYHYS"
 			]
 		},
 		"interfaces/IERC721.sol": {
-			"keccak256": "0x8b29cb1a40eebfe646555d78d9b1893a59dd25a6afe753759c97eaf62a7b2447",
+			"keccak256": "0xc5c4e1a30ac0869de81442260a0aff813da47a44810a0d896947f20ad8106e89",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cbe1e6572063438efbc7a1dc3cf896049941796284a5b09392f79483be0425a1",
-				"dweb:/ipfs/QmboLFw6epsXN2zPsfECyJekRGhG1vvw21BMcM8h2mQjcY"
+				"bzz-raw://6bdb6aa5558b67939ead0bfcf7dd7ef64063efb80dd6e027094acf342042e478",
+				"dweb:/ipfs/QmW9cwon46iERDavAYD64evxCsNbnspLQxPf41t3A3dEje"
 			]
 		},
 		"interfaces/IERC721Metadata.sol": {
-			"keccak256": "0xc3f6a23cf7e27480c79146af3699a79097e5b22719b22a486bed3f08d209a26f",
+			"keccak256": "0x5728da42c07532c34b782af7567e76ce524196b6064cded7a75099d964b82b00",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fadf154b4e5cab0aeb62145ac0e5388e01b6bb3cb055da2ecd350d414e92c192",
-				"dweb:/ipfs/QmWTJb3LvLR31m9K3snZwqwa8xugUSLwiFyxkU1x6QHoWk"
+				"bzz-raw://8db4025bffe1c4f666dd88c39e9148be19819cada5bd1b12817e107770fbe5bd",
+				"dweb:/ipfs/QmRaQvE8pudNkMS1rfdPPYGdXTQpTbcR5bkPW14mWjwpzf"
 			]
 		}
 	},

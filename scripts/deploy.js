@@ -4,6 +4,9 @@
 // When running the script with `npx hardhat run <script>` you'll find the Hardhat
 // Runtime Environment's members available in the global scope.
 const hre = require("hardhat");
+const { ethers } = hre;
+const { BigNumber } = require('ethers');
+require("@nomiclabs/hardhat-etherscan");
 
 async function main() {
   // Hardhat always runs the compile task when running scripts with its command
@@ -14,12 +17,21 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Greeter = await hre.ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
+  const MetaverseMagna = await hre.ethers.getContractFactory("MetaverseMagna");
+  const metaverseMagna = await MetaverseMagna.deploy();
 
-  await greeter.deployed();
+  await metaverseMagna.deployed();
 
-  console.log("Greeter deployed to:", greeter.address);
+  console.log("MetaverseMagna deployed to:", metaverseMagna.address);
+
+  if (hre.network.name === "mainnet" || hre.network.name === "testnet") {
+    await hre.run("verify", {
+      address: metaverseMagna.address,
+      constructorArguments: [],
+    });
+  } else {
+    console.log("Contracts deployed to", hre.network.name, "network. Please verify them manually.");
+  }
 }
 
 // We recommend this pattern to be able to use async/await everywhere

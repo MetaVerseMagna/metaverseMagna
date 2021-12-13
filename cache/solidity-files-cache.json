@@ -1,0 +1,665 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/Address.sol": {
+      "lastModificationDate": 1639351597906,
+      "contentHash": "14fcd66f8e6554f0415ed3bd58756aaa",
+      "sourceName": "contracts/libraries/Address.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/ERC721.sol": {
+      "lastModificationDate": 1639352294219,
+      "contentHash": "64672e5465998bb4d0ac1cd6c6057bea",
+      "sourceName": "contracts/libraries/ERC721.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IERC721.sol",
+        "./Context.sol",
+        "./ERC165.sol",
+        "../../interfaces/IERC721.sol",
+        "../../interfaces/IERC721Metadata.sol",
+        "../../interfaces/IERC721Receiver.sol",
+        "../../interfaces/IERC721Enumerable.sol",
+        "./SafeMath.sol",
+        "./Address.sol",
+        "./EnumerableSet.sol",
+        "./EnumerableMap.sol",
+        "./Strings.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/interfaces/IERC721.sol": {
+      "lastModificationDate": 1639352209814,
+      "contentHash": "4b7d1eb8defe13033ac4a1bb47e5fa50",
+      "sourceName": "interfaces/IERC721.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/Context.sol": {
+      "lastModificationDate": 1639351945444,
+      "contentHash": "1d40c15bc0d675c7db5498f55e86a9b5",
+      "sourceName": "contracts/libraries/Context.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/ERC165.sol": {
+      "lastModificationDate": 1639352403109,
+      "contentHash": "ffde1c8b567a2ecac01c9df317704acc",
+      "sourceName": "contracts/libraries/ERC165.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/interfaces/IERC721Metadata.sol": {
+      "lastModificationDate": 1639351071818,
+      "contentHash": "2a13aed8d09149a74b572aafb4002ec4",
+      "sourceName": "interfaces/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/interfaces/IERC721Receiver.sol": {
+      "lastModificationDate": 1639352219661,
+      "contentHash": "fe27667a6138b262bd147be4e17d6a45",
+      "sourceName": "interfaces/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/interfaces/IERC721Enumerable.sol": {
+      "lastModificationDate": 1639351064308,
+      "contentHash": "62b5f1af576e0c28cd58954305e966c0",
+      "sourceName": "interfaces/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1639349624548,
+      "contentHash": "e2462d64cf7e7a3f85d88cf624aa8e8f",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/EnumerableSet.sol": {
+      "lastModificationDate": 1639351623562,
+      "contentHash": "726b06ae8c92d6fdd799079e46b14258",
+      "sourceName": "contracts/libraries/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/EnumerableMap.sol": {
+      "lastModificationDate": 1639351722525,
+      "contentHash": "e1621ddb802d0b9d9f5ab017befbdd92",
+      "sourceName": "contracts/libraries/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/Strings.sol": {
+      "lastModificationDate": 1639351732968,
+      "contentHash": "28b815164bb8c7afc6c7243139fc964a",
+      "sourceName": "contracts/libraries/Strings.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/interfaces/IERC165.sol": {
+      "lastModificationDate": 1639352034092,
+      "contentHash": "e78c81e9daddc6ad58c02af262095f94",
+      "sourceName": "interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/MetaverseMagna.sol": {
+      "lastModificationDate": 1639353119579,
+      "contentHash": "eb791cf1748d1557dffb0074468475a6",
+      "sourceName": "contracts/MetaverseMagna.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./libraries/SafeMath.sol",
+        "./libraries/ReentrancyGuard.sol",
+        "./libraries/Ownable.sol",
+        "./libraries/ERC721.sol",
+        "./libraries/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "MetaverseMagna"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1639153594060,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/ReentrancyGuard.sol": {
+      "lastModificationDate": 1639349919796,
+      "contentHash": "21177cc2185ca7926dec319251ec92e1",
+      "sourceName": "contracts/libraries/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/Ownable.sol": {
+      "lastModificationDate": 1639350006446,
+      "contentHash": "c68328d1375bb1ac879430d47a4166b9",
+      "sourceName": "contracts/libraries/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/quintin/Desktop/metaverseMagna/contracts/libraries/ECDSA.sol": {
+      "lastModificationDate": 1639352411286,
+      "contentHash": "e828f6352468004aca61f60f2379a0c4",
+      "sourceName": "contracts/libraries/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    }
+  }
+}
